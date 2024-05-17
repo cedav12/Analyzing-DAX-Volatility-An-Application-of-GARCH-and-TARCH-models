@@ -1,2 +1,2 @@
-# Analyzing-DAX-Volatility-An-Application-of-GARCH-and-TARCH-models
-Analyzing DAX Volatility: An Application of GARCH and TARCH models
+# Analyzing DAX Volatility An Application of GARCH and TARCH models
+ We have analyzed and applied GARCH and TARCH models on the daily data of the DAX index from 5 January 2010 to 6 March 2023. Results provide a thorough examination of the index and the estimated volatility appears to be consistent with realized volatility and also with log returns. Based on AIC and BIC the TARCH models seem to outperform GARCH models. We examined several GARCH orders (p,q) and the best model turned out to be TARCH(2,2). Also, all TARCH(1,1), TARCH(1,2), and TARCH(2,1) seem to outperform the best GARCH model, which is GARCH(1,1). This is probably due to the presence of the asymmetric effects of negative and positive shocks on volatility, which TARCH models account for.
